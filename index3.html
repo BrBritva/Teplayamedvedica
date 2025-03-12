@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="stylesheet" href="CSS/hamburger.css">
+<link rel="stylesheet" href="CSS/hamburger nav.css">
+<link rel="stylesheet" href="CSS/hamburger text.css">
+<link rel="stylesheet" href="CSS/hamburger меню.css">
+<link rel="stylesheet" href="CSS/hamburger_campaing.css">
+<link rel="stylesheet" href="CSS/hamburger_shop.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Тёплая Медведица</title>
+</head>
+<body>
+<header class="menu">
+        <div class="menu-wrap">
+            <img src="logo8.jpg" class="img-logo" alt="Logo">
+            <input type="checkbox" id="checkbox"  >
+            <nav >
+                <ul>
+                    <li><a href="index.html#if1">О нас</a></li>
+                    <li><a href="index.html#if2">События</a></li>
+                    <li><a href="index2.html">Походы выходного дня</a></li>
+                    <li><a href="index.html#if3">Как доехать</a></li>
+                    <li><a href="#">Лавка сувениров</a></li>
+                    <li><a href="#">Волонтерский стан "Ватага"</a></li>
+                </ul>
+            </nav>
+            <label for="checkbox"><div class="container" onclick="burgerMenu(this)">
+                <div class="b1"></div>
+                <div class="b2"></div>
+                <div class="b3"></div>
+            </div></label>
+            <script>function burgerMenu(icon) {
+                icon.classList.toggle("change");
+            }</script>
+        </div>
+</header>
+    <div class="slideshow-container">
+        <div class="mySlides fade">
+            <div class="numbertext"></div>
+                <img src="Image/igra2.1.jpg" >
+        </div>
+        
+        <div class="mySlides fade">
+            <div class="numbertext"></div>
+                <img src="Image/igra6.1.jpg" >
+        </div>
+        
+        <div class="mySlides fade">
+            <div class="numbertext"></div>
+                <img src="Image/igra8.1.jpg" >
+        </div>
+        </div>
+        <div class="mySlides fade">
+            <div class="numbertext"></div>
+                <img src="Image/igra5.1.jpg" >
+        </div>
+        <br>
+        
+        <div class="dot1" style="text-align:center">
+        <span class="dot"></span> 
+        <span class="dot"></span> 
+        <span class="dot"></span> 
+        <span class="dot"></span> 
+        </div>
+        <script>
+            let slideIndex = 0;
+            showSlides();
+            
+            function showSlides() {
+            let i;
+            let slides = document.getElementsByClassName("mySlides");
+            let dots = document.getElementsByClassName("dot");
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";  
+            }
+            slideIndex++;
+            if (slideIndex > slides.length) {slideIndex = 1}    
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex-1].style.display = "block";  
+            dots[slideIndex-1].className += " active";
+              setTimeout(showSlides, 2500); // Change image every 2 seconds
+            }
+            </script>
+    
+<main>
+    <div class="shop">
+        <div class="cam1">
+            <div class="top_letter1"><p>Д</p></div><div class="text1"><p>обро пожаловать в нашу Лавку сувениров — место, где каждый предмет рассказывает свою уникальную историю и дарит незабываемые эмоции! <br>Наша коллекция представляет собой тщательно отобранные артефакты, которые не просто украсят ваш дом, но и станут настоящими хранителями воспоминаний, согревая душу и наполняя атмосферу теплом.</p></div>
+    </div>
+    <div class="text-shop">
+        <h3> Представляем вам уникальные сувениры, которые перенесут вас в далекие эпохи прошлого и погрузят в атмосферу древних традиций. Погрузитесь в мир традиций и уникальности с нашими эксклюзивными сувенирами ручной работы! Каждый предмет в нашей коллекции — это не просто украшение или память о путешествии, а настоящий артефакт, созданный с любовью и уважением к предкам. <br> Пусть ваши воспоминания будут всегда с вами — выбирайте качество, выбирайте традиции, выбирайте уникальность!</h3>
+    </div>
+    <div class="product_shp">
+        <div class="product_shop">
+            <div class="product">
+                <label>
+                    <img src="Image/igra3.jpg" alt="Image 1">
+                <a href="#"><div class="text_pr">
+                    <p>"Тавлеи" (в народе "Велеи")  древнерусская настольная игра</p>
+                </div></a>
+                </label>
+            </div>
+            <div class="product">
+                <label>
+                <img src="Image/igra5.jpg" alt="Image 1">
+                <a href="#"><div class="text_pr">
+                    <p>Настольная игра "Мельница или девять пляшущих мужчин"</p>
+                </div></a>
+                </label>
+            </div>
+            <div class="product">
+                <label>
+                <img src="Image/igra4.jpg" alt="Image 1">
+                <a href="#"><div class="text_pr">
+                    <p>Настольная игра "Дальдоза/Далдос"</p>
+                </div></a>
+                </label>
+            </div>
+        </div>
+    </div>
+    <div class="text-shop">
+        <h3> Погрузитесь в мир игр, где нет места повседневным заботам, и позвольте себе отвлечься от рутины.</h3>
+    </div>
+<footer class="clear">
+    <h4>Наши контакты</h4>
+    <a href="https://vk.com/public221828600" target="_blank">Тёплая медведица</a> |
+    <a href="https://vk.com/tradtvgu23" target="_blank">Выездная школа Славянской культуры</a> |
+    <a href="https://vk.com/public207228943" target="_blank">Древности Тверской карелии</a>
+    </footer>
+</main>
+</body>
+</html>

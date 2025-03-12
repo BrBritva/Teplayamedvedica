@@ -1,0 +1,185 @@
+.container-warpper1{
+    padding-top: 70px;
+}
+.campaign p{
+    /* text-align: center; */
+    display: block;
+    font-size: 20px;
+    line-height: 2.35;
+}
+
+
+.cam img {
+    width: 100%;
+    height: auto;
+    max-height: 100%;
+}
+.cam1{
+    padding: 0 70px;
+    margin-bottom: 50px;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.39);
+    display: flex;
+    flex-direction: row;
+    flex-direction: row;
+    align-items: baseline;
+}
+
+.top_letter1 p{
+    font-family: 'Peter';
+    font-size: 80px;
+    font-weight: 100;
+    color: red;
+}
+.text1 p{
+    font-family: "Monomakh", system-ui;
+    font-weight: 400;
+    font-style: normal;
+/* font-family: 'Roboto', sans-serif; */
+font-size: 30px;
+/* font-weight: bolder; */
+line-height: 1.55
+}
+@media (max-width: 738px) {
+    .text1 p {
+        font-size: 18px;
+        line-height: 1.4;
+    }
+    .top_letter1 p {
+        font-family: 'Peter';
+        font-size: 40px;
+        font-weight: 100;
+        color: red;
+    }
+    .cam1{
+        padding: 0 50px;
+        margin-bottom: 45px;
+}
+}
+
+@media (max-width: 738px){
+    .campaign h1{
+        text-align: center;
+        display: block;
+        margin: 15px ;
+        font-size: 15px;
+        font-family:'Roboto', Arial, sans-serif;
+        font-weight: 600;
+        line-height: 1.35;
+    }
+    
+}
+
+/* ---------МАРШРУТЫ----------- */
+.route{
+    display: inline-block;
+}
+.route1 h2{
+    text-align: center;
+        display: block;
+        /* margin-top: 50px; */
+        margin: 55px ;
+        font-size: 35px;
+        font-family:'Roboto', Arial, sans-serif;
+        font-weight: 600;
+        line-height: 1.35;
+}
+.route img{
+    width: 200px;
+    height: 200px;
+}
+.route_text p{
+    width: 200px;
+}
+
+.image-game img{
+    width: 100%;
+    
+}
+.game1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px;
+    margin-bottom: 50px;
+    background: #92b351;
+    border-radius: 15px;
+}
+.game2{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    padding: 20px;
+    background-color: #e5f3c8;
+    border-radius: 15px;
+    
+}
+.game1_1 p{
+    display: block;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.55;
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+    font-family: "Big Shoulders Stencil", sans-serif;
+}
+.game1_1 h3{
+    text-align: center;
+    font-family: "Monomakh", system-ui;
+    font-size: 30px;
+}
+
+/* .campaing-text{
+    background-image: url(fon2.jpg);
+    width: 100%;
+    height: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+} */
+.camp-text{
+    /* background: #fafbf89c; */
+    background: rgb(255 255 255 / 43%);
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+}
+
+.campaing-text p{
+        font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+    font-weight: bolder;
+    line-height: 1.55;
+    text-align: center;
+    margin: 0px 20px 50px 20px;
+    padding: 20px;
+    /* background: #92b351; */
+    background-color: #e5f3c8;
+    border-radius: 15px
+}
+
+.image-game{
+    padding-right: 20px;
+}
+
+@media (max-width: 738px){
+    .campaing-text p{
+        font-size: 16px;
+        line-height: 1.2;
+    }
+}
+
+@media (max-width: 738px){
+    .game1{
+        flex-direction: column;
+    }
+    .game2{
+        flex-direction: column;
+    }
+    .game1_1 p{
+        font-size: 15px;
+        line-height: 1.2;
+    }
+    }

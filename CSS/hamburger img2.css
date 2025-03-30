@@ -19,6 +19,8 @@
     text-decoration: none;
     font-family: 'Roboto', Arial, sans-serif;
 }
+.org_text1 a:hover{
+    color:rgb(102 153 0);
 .org2  img{
     width: 670px;
     margin-right: 154.5px;
@@ -40,7 +42,9 @@
     text-decoration: none;
     font-family: 'Roboto', Arial, sans-serif;
 }
-
+.org_text2 a:hover{
+    color:rgb(102 153 0);}
+    
 @media (max-width: 738px) {
     .org-if {
         padding: 20px;

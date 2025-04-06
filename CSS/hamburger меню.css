@@ -5,6 +5,8 @@
     width: 36px;
     height: 5px;
     background-color: #000;
+   background: url(../Image/tekstura.jpg);
+    background-size: cover;
     margin: 5px 0;
     transition: 0.3s;
 }
